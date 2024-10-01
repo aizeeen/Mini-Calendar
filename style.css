@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: "Pacifico", cursive;
+    background-color: slateblue;
+}
+
+.calendar-container {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    overflow: hidden;
+}
+
+p#month-name {
+    margin: 0;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.day-name {
+    font-size: 20px;
+    color: darkgray;
+}
+
+.day-number {
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.year {
+    margin: 20px 0;
+    font-size: 20px;
+    color: darkgray;
+    font-weight: 500;
+}
